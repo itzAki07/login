@@ -24,6 +24,7 @@ p, li{
 body main{
   max-width: 100%;
   min-height: 100%;
+  background-color: #dcedc8;
 }
 .container{
   text-align: center;
