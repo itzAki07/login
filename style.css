@@ -80,6 +80,12 @@ input::placeholder{
   margin: 15px;
   font-family: 'Roboto', sans-serif;
 }
+.loginreset a:link{
+  color: #000;
+}
+.signup a:link{
+  color: #000;
+}
 hr{
   width: 70%;
   margin: 0 auto;
