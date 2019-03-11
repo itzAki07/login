@@ -6,17 +6,25 @@
   <title>Login Page</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-  <link rel="stylesheet" href="../forgotten/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
   <body>
     <div class="container">
       <div class="heading">
-        <h2>Forgot Password</h2
+        <h2>Forgot Password</h2>
       </div>
       <div class="text">
         <p>Enter mobile number registered on Beru</p>
       </div>
-
+      <div class="details">
+        <i class="fas fa-phone fa-2x fa-flip-horizontal"></i>
+        <input type="text" name="username" value="" placeholder="PHONE NUMBER" onfocus="this.placeholder = ''" pattern="\d*" maxlength="10" required>
+      </div>
+      <hr>
+      <div class="buttons">
+        <button type="submit" name="button">CANCEL</button>
+        <button type="sumbit" name="button">CONTINUE</button>
+      </div>
     </div>
   </body>
 </html>
