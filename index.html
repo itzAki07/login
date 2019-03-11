@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login Page</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,8 +17,14 @@
       </div>
       <div class="logindetails">
         <form class="login" action="index.html" method="post">
-          <input type="text" name="username" value="" placeholder="PHONE NUMBER" onfocus="this.placeholder = ''" pattern="\d*" maxlength="10" required>
-          <input type="password" name="password" value="" placeholder="PASSWORD"  onfocus="this.placeholder = ''" minlength="8" required>
+          <div class="username">
+            <i class="fas fa-phone fa-2x fa-flip-horizontal"></i>
+            <input type="text" name="username" value="" placeholder="PHONE NUMBER" onfocus="this.placeholder = ''" pattern="\d*" maxlength="10" required>
+          </div>
+          <div class="pass">
+            <i class="fas fa-lock fa-2x"></i>
+            <input type="password" name="password" value="" placeholder="PASSWORD"  onfocus="this.placeholder = ''" minlength="8" required>
+          </div>
           <button type="submit" name="button">Login</button>
         </form>
       </div>
@@ -36,9 +43,6 @@
       <small>&copy; 2019, All rights reserved</small>
       </div>
     </footer>
-
-
-
   </main>
 </body>
 </html>
