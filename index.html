@@ -16,9 +16,9 @@
       </div>
       <div class="logindetails">
         <form class="login" action="index.html" method="post">
-          <input type="text" name="username" value="" placeholder="USERNAME">
-          <input type="text" name="password" value="" placeholder="PASSWORD">
-          <button type="button" name="button">Login</button>
+          <input type="text" name="username" value="" placeholder="PHONE NUMBER" onfocus="this.placeholder = ''" pattern="\d*" maxlength="10" required>
+          <input type="password" name="password" value="" placeholder="PASSWORD"  onfocus="this.placeholder = ''" minlength="8" required>
+          <button type="submit" name="button">Login</button>
         </form>
       </div>
       <div class="container-bottom">
@@ -31,9 +31,12 @@
         </div>
       </div>
     </div>
-    <div class="cpy">
-      <small>&copy 2019</small>
-    </div>
+    <footer class="copy">
+      <div class="cpy">
+      <small>&copy; 2019, All rights reserved</small>
+      </div>
+    </footer>
+
 
 
   </main>
