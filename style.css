@@ -36,6 +36,7 @@ html, body{
 .heading h1{
   font-size: 40px;
   font-weight: 600;
+  color: #7681b9;
 }
 .logindetails{
   width: 100%
