@@ -107,6 +107,13 @@ hr{
   width: 70%;
   margin: 0 auto;
 }
+.btn{
+  outline: none;
+  border: 0px;
+  font-family: inherit;
+  font-size: 16px;
+  background-color: transparent;
+}
 
 .copy{
   width: 100%;
