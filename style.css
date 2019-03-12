@@ -105,6 +105,10 @@ html, body{
 p{
   padding-top: 20px;
 }
+img{
+  margin-top:3px;
+  height: 42px;
+}
 input::placeholder{
   text-align: center;
 }
