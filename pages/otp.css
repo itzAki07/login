@@ -8,6 +8,9 @@ img{
   margin-top:3px;
   height: 42px;
 }
+#gst{
+  height: 50px;
+}
 }
 .otp-input{
   display: flex;
