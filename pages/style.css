@@ -43,6 +43,10 @@
     display: flex;
     width: 100%;
   }
+  img{
+    margin-top:3px;
+    height: 42px;
+  }
   .pass{
     display: flex;
     width: 100%;
