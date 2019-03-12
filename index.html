@@ -15,18 +15,23 @@
       <div class="heading">
         <h1>BERU CARDS</h1>
       </div>
+
       <div class="logindetails">
         <form class="login" action="index.html" method="post">
           <div class="username">
             <i class="fas fa-phone fa-2x fa-flip-horizontal"></i>
             <input type="text" name="username" value="" placeholder="PHONE NUMBER" onfocus="this.placeholder = ''" pattern="\d*" maxlength="10" required>
           </div>
+
           <hr class="line">
+
           <div class="pass">
             <i class="fas fa-lock fa-2x"></i>
             <input type="password" name="password" value="" placeholder="PASSWORD"  onfocus="this.placeholder = ''" minlength="8" required>
           </div>
+
           <hr class="line">
+
           <button type="submit" name="button">Login</button>
         </form>
       </div>
@@ -37,14 +42,25 @@
 
         <!-- Password Forgotten Page -->
 
-        
+
         <hr>
         <div class="signup">
-          <button class="btn" type="button" name="button">Register</button>
+          <button onclick="openForm()" class="btn" type="button" name="button">Register</button>
         </div>
 
         <!-- Registration Form -->
 
+        <div class="form-up" id="myForm">
+          <form class="form-container" action="index.html" method="post">
+            <h1>Create A BERRU Account</h1>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <hr>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <hr>
+            <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
       </div>
     </div>
     <footer class="copy">
@@ -53,5 +69,15 @@
       </div>
     </footer>
   </main>
+  <script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+alert("This is working");
+</script>
 </body>
 </html>
