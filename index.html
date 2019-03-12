@@ -45,11 +45,11 @@
         </div>
       </div>
         <hr>
-        <div class="signup">
-          <button class="btn" type="button" name="button">Register</button>
-          <div class="dropbtn" id="myDropdown">
-            <button onclick="location.href='../login/pages/index.html'" type="button" name="button">Customer Login</button>
-            <button onclick="location.href='../login/pages/index2.html'" type="button" name="button">Merchant Login</button>
+        <div class="signup dropdown">
+          <button class="dropbtn" onclick="myFunction()" type="button" name="button">Register</button>
+          <div class="dropdown-content" id="myDropdown">
+            <button class="btn1" onclick="location.href='../login/pages/index.html'" type="button" name="button">Customer Login</button>
+            <button class="btn2" onclick="location.href='../login/pages/index2.html'" type="button" name="button">Merchant Login</button>
           </div>
         </div>
     </div>
@@ -59,5 +59,26 @@
       </div>
     </footer>
   </main>
+  <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 </body>
 </html>
