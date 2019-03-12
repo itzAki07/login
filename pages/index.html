@@ -22,28 +22,34 @@
 
           <hr class="line">
 
-          <div class="email">
-            <i class="fas fa-at fa-2x"></i>
-            <input type="email" name="email" value="" placeholder="EMAIL" required>
+          <button type="submit" name="button">SEND OTP</button>
+        </form>
+
+        <div class="signup">
+          <button onclick="location.href='../index.html'" class="btn" type="button" name="button">Already Signed In ?</button>
+        </div>
+
+
+        <form class="login" action="index.html" method="post">
+          <div class="username">
+            <i class="fas fa-at fa-2x "></i>
+            <input type="email" name="username" value="" placeholder="EMAIL" pattern="\d*" maxlength="10" required>
           </div>
 
           <hr class="line">
 
-          <div class="pass">
-            <i class="fas fa-lock fa-2x"></i>
-            <input type="password" name="password" value="" placeholder="PASSWORD" minlength="8" required>
+          <div class="username">
+            <i class="fas fa-lock fa-2x "></i>
+            <input type="password" name="username" value="" placeholder="PASSWORD" pattern="\d*" maxlength="10" required>
           </div>
 
           <hr class="line">
 
-          <button type="submit" name="button">REGISTER</button>
+          <button type="submit" name="button">LOGIN</button>
         </form>
       </div>
 
         <hr>
-        <div class="signup">
-          <button onclick="location.href='../index.html'" class="btn" type="button" name="button">Sign In</button>
-        </div>
     </div>
   </body>
 </html>

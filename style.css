@@ -67,6 +67,7 @@ html, body{
   border:0px solid black;
   outline: none;
   text-align: center;
+  font-size: 16px;
 }
 .line{
   width: 100%;
@@ -75,7 +76,7 @@ html, body{
 .login button{
   color: white;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'Roboto', sans-serif;;
   text-decoration: none;
   text-transform: uppercase;
@@ -83,6 +84,7 @@ html, body{
   height: 35px;
   background-color: #7681b9;
   margin: 30px 0px;
+  border-width: 0px;
 }
 input::placeholder{
   text-align: center;
