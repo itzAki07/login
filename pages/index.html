@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h2>Create A Beru Account</h2>
+      </div>
+
+      <div class="logindetails">
+        <form class="login" action="index.html" method="post">
+          <div class="username">
+            <i class="fas fa-phone fa-2x fa-flip-horizontal"></i>
+            <input type="text" name="username" value="" placeholder="PHONE NUMBER" pattern="\d*" maxlength="10" required>
+          </div>
+
+          <hr class="line">
+
+          <div class="email">
+            <i class="fas fa-at fa-2x"></i>
+            <input type="email" name="email" value="" placeholder="EMAIL" required>
+          </div>
+
+          <hr class="line">
+
+          <div class="pass">
+            <i class="fas fa-lock fa-2x"></i>
+            <input type="password" name="password" value="" placeholder="PASSWORD" minlength="8" required>
+          </div>
+
+          <hr class="line">
+
+          <button type="submit" name="button">REGISTER</button>
+        </form>
+      </div>
+
+        <hr>
+        <div class="signup">
+          <button onclick="location.href='../index.html'" class="btn" type="button" name="button">Sign In</button>
+        </div>
+    </div>
+  </body>
+</html>
