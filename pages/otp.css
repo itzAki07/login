@@ -1,6 +1,8 @@
 @media screen and (max-width : 479px){
   h2{
     color: #7681b9;
+    font-weight: 400;
+    font-size: 26px;
   }
 img{
   margin-top:3px;
@@ -12,6 +14,17 @@ img{
   width: 100%;
 }
 .otp-input input{
+  display: block;
+  background: #fafafa;
+  margin: 15px 0px;
+  margin-left: 25px;
+  width: 100%;
+  height: 30px;
+  border:0px solid black;
+  outline: none;
+  text-align: center;
+}
+.pass input{
   display: block;
   background: #fafafa;
   margin: 15px 0px;
@@ -41,6 +54,6 @@ hr{
   width: 100%;
   height: 35px;
   background-color: #7681b9;
-  margin-top: 60px;
+  margin-top: 30px;
   border-width: 0px;
 }
