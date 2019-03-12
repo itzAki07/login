@@ -75,6 +75,7 @@ html, body{
 .line{
   width: 100%;
   border-top: 1px solid #7681b9;
+  margin: 0px;
 }
 .login button{
   color: white;
@@ -252,7 +253,6 @@ hr{
 }
 .btn1, .btn2{
   float: left;
-  margin-left: 20px;
   height: 100%;
   border-width: 0px;
   font-size: 20px;
@@ -261,12 +261,12 @@ hr{
 }
 .btn2{
   float: right;
-  margin-right: 20px;
 }
 .dropdown a:hover {background-color: #ddd;}
 
-.show {display: block;
-width: 100%;
-margin-top: 30px;
-height: 35px;}
+.show {
+  display: grid;
+    width: 100%;
+    margin-top: 10px;
+    height: 80px;}
 }
