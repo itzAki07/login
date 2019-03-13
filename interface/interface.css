@@ -1,0 +1,49 @@
+@media screen and (max-width : 479px) {
+	*{
+		margin: 0 auto;
+	}
+  body{
+    width: 100%;
+    height: 100%;
+  }
+	.heading{
+		width: 100%;
+		text-align: center;
+		margin: 20% 0%;
+	}
+.container {
+	width: 80%;
+	margin-top: 10%;
+	height: 70%;
+	text-align: center;
+}
+
+.btn {
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 100%;
+	height: 60px;
+	background-color: #7681b9;
+	margin-top: 45px;
+	border-width: 0px;
+	line-height: 50px;
+	cursor: pointer;	
+}
+
+img {
+	height: 50px;
+	float: left;
+}
+
+h1 {
+	font-family:  'Roboto', sans-serif;
+	margin: auto;
+	color: #7681b9;
+	width: 100%;
+}
