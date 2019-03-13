@@ -143,11 +143,12 @@ hr{
 }
 
 .copy{
-  width: 100%;
-  height: 35px;
-  text-align: center;
-  padding-top: 25%;
-  font-family: 'Roboto', sans-serif;
+	  width: 100%;
+	  height: 35px;
+	  text-align: center;
+	  margin-top: 25%;
+	  font-family: 'Roboto', sans-serif;
+		background: red;
 }
 .small{
   margin-top: 5px;
