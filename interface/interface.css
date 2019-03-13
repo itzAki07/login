@@ -39,6 +39,10 @@
 	.img{
 		transform: rotate(145deg);
 	}
+	.img1{
+	height: 44px;
+    margin: 3px 2px;
+	}
 img {
 	height: 50px;
 	float: left;
