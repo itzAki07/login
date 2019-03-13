@@ -36,9 +36,13 @@
 	cursor: pointer;	
 }
 
+	.img{
+		transform: rotate(145deg)
+	;}
 img {
 	height: 50px;
 	float: left;
+	transform: rotate(315deg);
 }
 
 h1 {
