@@ -1,51 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OTP</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="otp.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-  </head>
-  <body>
-    <div class="container" id="cont">
-      <h2>BERU Account Creation</h2>
-      <div class="otp-container">
-        <form class="otp-form" id="opt-form" action="index.html" method="post">
-          <div class="otp-input">
-            <img src="https://img.icons8.com/dusk/64/000000/1-circle-c.png" alt="">
-            <input type="text" name="otp" value="" placeholder="OTP PIN" pattern="/d*" maxlength="4">
-          </div>
-
-          <hr>
-
-          <div class="pass">
-            <img src="https://img.icons8.com/nolan/64/000000/lock-2.png" alt="">
-            <input type="password" name="password" value="" placeholder="PASSWORD" minlength="8" required>
-          </div>
-
-          <hr>
-
-          <div class="pass">
-            <img src="https://img.icons8.com/nolan/64/000000/lock-2.png" alt="">
-            <input type="password" name="password" value="" placeholder="CONFIRM PASSWORD" minlength="8" required>
-          </div>
-
-          <hr>
-
-          <div class="pass">
-            <img id="gst" src="../gst.png" alt="">
-            <input type="text" name="gst" value="" placeholder="GST NUMBER" required>
-          </div>
-
-          <hr>
-
-          <div class="btn" id="btn">
-            <button onclick="" type="button" name="button">CONTINUE</button>
-          </div>
-        </form>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OTP</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="otp.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+</head>
+<body>
+<div class="container" id="cont">
+  <h2>BERU Account Creation</h2>
+  <div class="otp-container">
+    <form class="otp-form" id="opt-form" action="index.html" method="post">
+      <div class="otp-input"> <img src="https://img.icons8.com/dusk/64/000000/1-circle-c.png" alt="">
+        <input type="text" name="otp" value="" placeholder="OTP PIN" pattern="/d*" maxlength="4">
       </div>
-    </div>
-  </body>
+      <hr>
+      <div class="pass"> <img src="../icons/lock-2.png" alt="">
+        <input type="password" name="password" value="" placeholder="PASSWORD" minlength="8" required>
+      </div>
+      <hr>
+      <div class="pass"> <img src="../icons/lock-2.png" alt="">
+        <input type="password" name="password" value="" placeholder="CONFIRM PASSWORD" minlength="8" required>
+      </div>
+      <hr>
+      <div class="pass"> <img id="gst" src="../icons/gst.png" alt="">
+        <input type="text" name="gst" value="" placeholder="GST NUMBER" required>
+      </div>
+      <hr>
+      <div class="btn" id="btn">
+        <button onclick="" type="button" name="button">CONTINUE</button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
 </html>

@@ -1,84 +1,90 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <!-- Login Page -->
-    <div class="container">
-      <div class="heading">
-        <h1>BERU CARDS</h1>
-      </div>
-
-      <div class="logindetails">
-        <form class="login" action="index.html" method="post">
-          <div class="username">
-            <img src="https://img.icons8.com/cotton/64/000000/phonelink-ring.png" alt="">
-            <input type="text" name="username" value="" placeholder="MOBILE NUMBER" pattern="\d*" maxlength="10" required>
-          </div>
-
-          <hr class="line">
-
-          <div class="pass">
-            <img src="https://img.icons8.com/nolan/64/000000/lock-2.png" alt="">
-            <input type="password" name="password" value="" placeholder="PASSWORD" minlength="8" required>
-          </div>
-
-          <hr class="line">
-
-          <button type="submit" name="button">LOGIN</button>
-        </form>
-        <p>OR</p>
-        <form class="logins" action="index.html" method="post">
-          <button class="btns" type="submit" name="button">LOGIN VIA OTP</button>
-        </form>
-      </div>
-      <div class="container-bottom">
-        <div class="loginreset">
-          <button class="btn" type="button" name="button">Forgot Password?</button>
-        </div>
-      </div>
-        <hr>
-        <div class="signup dropdown">
-          <button class="dropbtn" onclick="myFunction()" type="button" name="button">Register</button>
-          <div class="dropdown-content" id="myDropdown">
-            <button class="btn1" onclick="location.href='../login/pages/customer.html'" type="button" name="button">Register As  Customer</button>
-            <button class="btn2" onclick="location.href='../login/pages/merchant.html'" type="button" name="button">Register As Merchant</button>
-          </div>
-        </div>
+<main> 
+  
+  <!-- Login Page -->
+  
+  <div class="container"> 
+    
+    <!--Heading-->
+    
+    <div class="heading">
+      <h1>BERU CARDS</h1>
     </div>
-    <footer class="copy">
-      <div class="cpy">
-      <small>&copy; 2019, All rights reserved</small>
+    
+    <!--Loging Details-->
+    
+    <div class="logindetails">
+      <form class="login" action="index.html" method="post">
+        <div class="username"> <img src="../login/icons/phonelink-ring.png" alt="">
+          <input type="text" name="username" value="" placeholder="MOBILE NUMBER" pattern="\d*" maxlength="10" required>
+        </div>
+        <hr class="line">
+        <div class="pass"> <img src="../login/icons/lock-2.png" alt="">
+          <input type="password" name="password" value="" placeholder="PASSWORD" minlength="8" required>
+        </div>
+        <hr class="line">
+        <button type="submit" name="button">LOGIN</button>
+      </form>
+      <p>OR</p>
+      <form class="logins" action="index.html" method="post">
+        <button class="btns" type="submit" name="button">LOGIN VIA OTP</button>
+      </form>
+    </div>
+    
+    <!--Register and Reset -->
+    
+    <div class="container-bottom">
+      <div class="loginreset">
+        <button class="btn" type="button" name="button">Forgot Password?</button>
       </div>
-    </footer>
-  </main>
-  <script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
+    </div>
+    <hr>
+    <div class="signup dropdown">
+      <button class="dropbtn" onclick="myFunction()" type="button" name="button">Register</button>
+      <div class="dropdown-content" id="myDropdown">
+        <button class="btn1" onclick="location.href='../login/pages/customer.html'" type="button" name="button">Register As  Customer</button>
+        <button class="btn2" onclick="location.href='../login/pages/merchant.html'" type="button" name="button">Register As Merchant</button>
+      </div>
+    </div>
+  </div>
+  
+  <!--footer-->
+  
+  <footer class="copy">
+    <div class="cpy"> <small>&copy; 2019, All rights reserved</small> </div>
+  </footer>
+</main>
+<script>
+			
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			
+			function myFunction() {
+				document.getElementById("myDropdown").classList.toggle("show");
+			}
+			
+			// Close the dropdown if the user clicks outside of it
+			
+			window.onclick = function(event) {
+				if (!event.target.matches('.dropbtn')) {
+					var dropdowns = document.getElementsByClassName("dropdown-content");
+					var i;
+					for (i = 0; i < dropdowns.length; i++) {
+						var openDropdown = dropdowns[i];
+						if (openDropdown.classList.contains('show')) {
+							openDropdown.classList.remove('show');
+						}
+					}
+				}
+			}
+		</script>
 </body>
 </html>
