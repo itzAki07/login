@@ -23,66 +23,25 @@ p, li {
 html, body {
     width: 100%;
     height: 100%;
+	margin: 0px;
     background-color: #fafafa;
 }
 .heading {
     width: 100%;
     text-align: center;
-    margin: 20% 0%;
+    padding-top:  20%;
 }
-/*
-.container {
-    width: 80%;
-    margin-top: 10%;
-    height: 70%;
-    text-align: center;
-}
-.btn {
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    height: 60px;
-    background-color: #7681b9;
-    margin-top: 45px;
-    border-width: 0px;
-    line-height: 50px;
-    cursor: pointer;
-    outline: none;
-}
-.img {
-    transform: rotate(145deg);
-    outline: none;
-}
-.img1 {
-    height: 44px;
-    margin: 3px 2px;
-    outline: none;
-}
-img {
-    height: 50px;
-    float: left;
-    transform: rotate(315deg);
-    outline: none;
-}
-*/
 h1 {
     font-family: 'Roboto', sans-serif;
     margin: auto;
     color: #7681b9;
     width: 100%;
 }
-}
 
-/*TEST*/
 .container{
 	width: 80%;
 	height: 400px;
-	margin: 30% auto;
+	margin: 20% auto;
 	
 	
 }
@@ -148,4 +107,5 @@ h4{
 	margin-top: 10px;
 	font-size: 12px;
 	font-weight: 400;
+}
 }
