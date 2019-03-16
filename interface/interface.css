@@ -40,8 +40,9 @@ h1 {
 
 .container{
 	width: 80%;
-	height: 400px;
-	margin: 20% auto;
+	height: 550px;
+	margin: 10% auto;
+	background: red;
 	
 	
 }
@@ -60,11 +61,27 @@ h1 {
 	flex: 1;
 	text-align: center;
 	padding: 0px 10px;
-	margin: 0px 15px;
+	margin: 0px;
 	position: relative;
 	background: none;
 	border: none;
+	
 }
+
+	.vertical{
+    width: 40%;
+    height: 53%;
+    display: -webkit-inline-box;
+    position: absolute;
+    top: 57%;
+    border-right: 0.5px solid;
+	}
+	hr{
+		width: 36.5%;
+		position: relative;
+		bottom: 11%;
+		border: 0.5px solid 
+	}
 .icon{
 	width: 50px;
 	height: 50px;
