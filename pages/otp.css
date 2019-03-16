@@ -61,6 +61,7 @@ hr {
     background-color: #7681b9;
     margin-top: 30px;
     border-width: 0px;
+	border-radius: 25px;
 }
 /* merchant */
 #cont {
